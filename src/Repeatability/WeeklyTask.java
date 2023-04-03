@@ -8,7 +8,7 @@ import java.util.Date;
 public class WeeklyTask extends Task {
     public WeeklyTask(String title, Type type, String description) {
         super(title, type, description);
-        super.setRepeatability("Еженедельная");
+        setRepeatability("Еженедельная");
     }
 
     @Override

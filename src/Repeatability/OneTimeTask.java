@@ -8,7 +8,7 @@ import java.util.Date;
 public class OneTimeTask extends Task {
     public OneTimeTask(String title, Type type, String description) {
         super(title, type, description);
-        super.setRepeatability("Однократная");
+        setRepeatability("Однократная");
     }
 
     @Override
